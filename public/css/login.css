@@ -1,0 +1,23 @@
+.login_container{
+    width: 250px;
+    display: block;
+    margin: 5px auto;
+}
+.form-control{
+    margin: 5px 0px;
+    width: 100%;
+}
+.login_button_container{
+    width: 100%;
+}
+.sign_in_btn{
+    float:right;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    body{
+        background-color: #ffffff;
+    }
+}

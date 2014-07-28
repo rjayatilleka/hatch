@@ -1,0 +1,61 @@
+.profile_container{
+    width: 305px;
+    display: block;
+    margin: 5px auto;
+}
+.space_wasting {
+    padding-bottom: 55px;
+}
+
+.cover_img{ 
+    width: 305px;
+    height: 140px;
+}
+
+.profile_img{
+    width: 75px;
+    height: 100px;
+    margin-top: -55px;
+    margin-left: 115px;
+    border-radius: 50px;
+}
+
+.name {   
+    text-align: center;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+.job {
+    text-align: center;
+}
+
+.idea_btn {
+    margin-left: 68px;
+    margin-top: 5px;
+    border-radius: 25px;
+    background-color: #d8d8d8;
+}
+
+.skills {
+    text-align: center;
+}
+
+.current_skills{
+    text-align: center;
+}
+
+.add_skills_btn{
+    margin-left: 110px;
+    margin-top: 5px;
+    border-radius: 25px;
+    background-color: #d8d8d8;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    body{
+        background-color: #ffffff;
+    }
+}

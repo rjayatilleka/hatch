@@ -1,0 +1,16 @@
+INSERT INTO user_profiles (username, password, email, phone, firstname, lastname, avatar_url, job, skills, interest)
+VALUES
+
+    ("Alicia", "abcd", "alicia@gmail.com", "1112224444", "Alicia", "Abbeyworth", "http://qph.is.quoracdn.net/main-thumb-t-10957-100-X3EeKJjL64eOPrZOkN9ZJeGyjSzFbh4v.jpeg", "Designer", "Adobe Creative Suite, Logo Design", "Making a project that looks good"),
+    ("Victor", "abcd", "v.dozal@live.com", "0110111001", "Victor", "Dozal", "http://www.emoticonswallpapers.com/avatar/people/Man.png", "Developer", "Twitter Bootstrap, Front-End Development", "Refining user experience"),
+    ("Ramith", "abcd", "ramith.jayatilleka@gmail.com", "5158646335", "Ramith", "Jayatilleka", "http://www.ascap.com/~/media/images/audio_portraits/2014/pic_david_nail.jpg", "Developer", "Functional programming, Laveral-based backends", "Broadening scope of my experience"),
+    ("Carl", "abcd", "carl@cs.umn.edu", "1234567890", "Carl", "Sturivant", "http://pictures-e1.thumbtackstatic.com/pictures/93/mhl87idkbulhzmq_100.jpg", "Professor", "Algorithms, Systems programming", "Educating young minds");
+
+INSERT INTO user_skills (userid, skill)
+VALUES
+    (1, "java"),
+    (1, "snowboarding"),
+    (1, "piano"),
+    (2, "c"),
+    (3, "ruby"),
+    (4, "swift");
